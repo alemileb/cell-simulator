@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.matrix .row > [class^='col-'] {
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+.cell {
+  width: 100px;
+  height: 100px;
+}
+.alive {
+  border: 1px solid rgba(86, 61, 124, 0.2);
+  background-color: blue !important;
+}
