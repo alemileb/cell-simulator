@@ -14,10 +14,9 @@ Click in any cell you want to make alive to set the initial state
 then click 'Start' so the cell simulation begins
 To stop the simulation run the 'Stop' button 
 To clear the board click the 'Clear' button
-
+Wrapping around the world was not implemented yet. Avoid outer rows and columns
 
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
+Libraries used for unit testing are enzyme and jest
